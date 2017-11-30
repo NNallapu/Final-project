@@ -1,27 +1,28 @@
-Create a FORK of this repository to store your code, data, and documentation for the final project. Detailed instructions for this assignment are in the course Moodle site.  The reason I'm asking you to fork this empty repository instead of creating a stand-alone repository is that it will be much easier for me and all students in the course to find all of our projects for code review and for grading. You can even get code review from students in the other section of IS590PR this way.
 
-Even though your fork of this repository shall remain public, you'll still need to explicitly add any students on your team as Collaborators in the Settings. That way you can grant them write privileges.
 
-DELETE the lines from TEMPLATE up.
 
-TEMPLATE for your report:
+# Title: MCS Simulation of Snakes and Ladders game 
 
-# Title: 
+## Team Member(s):Nandana Nallapu
 
-## Team Member(s):
-(Note: Don't put your email addresses here (which is public).  If a student wants their NAME hidden as well, due to optional FERPA regulations, they can be listed purely by their GitHub ID).
 
 # Monte Carlo Simulation Scenario & Purpose:
+Understanding the workings of a Finite State Machine like Snakes and Ladders, and implementing the rules regarding when and how the system moves from one state to another, and what factors affect this state change. The purpose is to look at the questions like what is the minimum number of moves made in the game to finish it, given two players, and to see what is the shortest time to run the game, does the starting player have an advantage, etc
 
 ### Hypothesis before running the simulation:
 
+The hypothesis is that there is an average running time for the game and chances of the game going on forever are slim. 
+
 ### Simulation's variables of uncertainty
-List and describe your simulation's variables of uncertainty (where you're using pseudo-random number generation). 
-For each such variable, how did you decide the range and which probability distribution to use?  
-Do you think it's a good representation of reality?
+
+All players start with a single roll die to reach one of the 100 squares. On each trial, there are equal chances of getting a ladder,snake or just a number/snake's tail/ladder's top. After running the simulation a number of time, by dividing the total number of moves by the number of games, we get an estimate for the average number of moves. 
 
 ## Instructions on how to use the program:
 
 
 ## Sources Used:
+Snakes and Ladders Wiki: https://en.wikipedia.org/wiki/Snakes_and_Ladders
+Mathematical Analysis of Snakes and Ladders: http://ksuweb.kennesaw.edu/~jprest20/cgdd2002/CC_Mag_Winter_2012.pdf
+Implementation of board games: https://www.ijircce.com/upload/2016/april/197_Implementation.pdf
+Data Genetics blog :  http://datagenetics.com/blog/november12011/index.html
 
