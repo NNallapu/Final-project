@@ -3,7 +3,7 @@
 
 # Title: MCS Simulation of Snakes and Ladders game 
 
-## Team Member(s):Nandana Nallapu
+## Team Member:Nandana Nallapu
 
 
 # Monte Carlo Simulation Scenario & Purpose:
