@@ -119,10 +119,11 @@ if __name__ == '__main__':
     c = monte_carlo()
     print("===================================================")
     print("Current Game length is " + str(a) + " moves \n")
+    print("From the results, we can see that the ladder 1-38 shortens the game most.")
     print("===================================================")
-    print("1000000 simulations of the game gives an average of " + str(c) + " moves\n")
+    print("1000000 simulations of the game gives an average of  " + str(c) + " moves\n")
     print("===================================================")
-    print("Running the Snakes and Ladders game for two players \n")
+    print("*******   Running the Snakes and Ladders game for two players ******** \n")
     Player1 = no_of_moves()
     Player2 = no_of_moves()
     if Player1 < Player2:
